@@ -17,6 +17,13 @@ public class Main extends Application {
     }
 
 
+        //System.out.println("Welcome To Password-Generator. Your app to savely generate Passwords.");
+        //System.out.println("Please enter your specifications.");
+        //System.out.println("Number of characters:");
+        //System.out.println("Include numbers? (Yes/No)");
+        //System.out.println("Include letters? (Yes/No)");
+
+
     public static void main(String[] args) {
         launch(args);
     }
