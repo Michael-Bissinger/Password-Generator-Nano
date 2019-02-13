@@ -14,7 +14,7 @@ public class Main extends Application {
 
 
         primaryStage.setTitle("Password Generator Nano");
-        primaryStage.setScene(new Scene(root, 300, 500));
+        primaryStage.setScene(new Scene(root, 420, 290));
         primaryStage.show();
 
 
