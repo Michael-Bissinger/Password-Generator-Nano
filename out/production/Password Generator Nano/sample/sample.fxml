@@ -3,6 +3,43 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<GridPane fx:controller="sample.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.control.TextField?>
+<GridPane xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="sample.Controller"
+          alignment="center" hgap="10" vgap="10">
+            <padding>
+                <Insets top="25" right="25" bottom="25" left="25"/>
+            </padding>
+    <Text text="Welcome to the awesome Passwordgenerator Nano!!!"
+          GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2"/>
+
+        <Label text="Please enter your specifications."
+               GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+
+        <Label text="Number of characters:"
+               GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+
+        <TextField
+            GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+
+        <Label text="Include numbers? (Yes/No)"
+               GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+
+        <TextField
+            GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+
+        <Label text="Include letters? (Yes/No)"
+               GridPane.columnIndex="0" GridPane.rowIndex="6"/>
+
+        <TextField
+            GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+
+
 </GridPane>
+
+
