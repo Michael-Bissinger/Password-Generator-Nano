@@ -16,13 +16,16 @@ public class Controller implements Initializable {
     @FXML
     private Text actiontarget;
 
+    @FMXL protected void handleSubmitButtonAction(ActionEvent event) {
+        actiontarget.setText("Button clicked!");
+    }
 
-    @FXML
-    private void handleSubmitButtonAction(ActionEvent event) {
+//    @FXML
+//    private void handleSubmitButtonAction(ActionEvent event) {
         //System.out.println("You clicked me!");
         //label.setText("Hello World!");
-        actiontarget.setText("Button to start was pressed!"); // Build main application here
-    }
+//        actiontarget.setText("Button to start was pressed!"); // Build main application here
+//    }
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {

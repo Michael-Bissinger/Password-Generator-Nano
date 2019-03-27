@@ -40,8 +40,8 @@
         <!-- Builds in Start-Button -->
         <HBox spacing="10" alignment="bottom_right"
               GridPane.columnIndex="1" GridPane.rowIndex="7">
-            <Button text="Create Password"/>
-            <!--       onAction="#handleSubmitButtonAction"/>  Bug, please fix   -->
+            <Button text="Create Password"
+                   onAction="##handleSubmitButtonAction"/>
        </HBox>
 
        <Text fx:id="actiontarget"
