@@ -17,8 +17,7 @@
                 <Insets top="25" right="25" bottom="25" left="25"/>
             </padding>
     <Text text="Welcome to the awesome Passwordgenerator Nano!!!"
-          GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2"
-          />
+          GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2"/>
 
         <Label text="Please enter your specifications."
                GridPane.columnIndex="0" GridPane.rowIndex="1"/>
